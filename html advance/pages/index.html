@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Author" content="Tolya Chernyshev">
+	<title>Document</title>
+	<link rel="stylesheet" href="../assets/stylesheets/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+<!------------ Header ------------>
+	<header class="header">
+		<h1>Сайт начинающего frontend</h1>
+		<form class="form" action="index.html" method="get">
+			<input type="email" 
+				   name="usermail" 
+				   placeholder="E-mail" 
+				   autofocus required>
+			<input type="password" 
+				   name="pwd" 
+				   placeholder="Password" 
+				   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+				   required
+				   title="Введите только буквы и цифры длина пароль должна быть не менее 8 символов">
+			<button type="button">Войти</button>
+		</form>
+	</header>
+<!------------ Content ------------>
+	<nav class="nav">
+		<ol>
+			<li>Главное</li>
+			<li>О нас</li>
+			<li>Контакты</li>
+		</ol>
+	</nav>
+	<section>
+		<article>
+			<h2>Информация обо всем</h2>
+		</article>
+		<aside>
+			<p>
+			 	Lorem ipsum — dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+			</p>
+		</aside>
+		<figure>
+			<audio 
+				src="https://ia800202.us.archive.org/4/items/LinkinPark_152/LinkinPark-WhatIveDonemus.ge.mp3"
+				controls
+				onplay="onPlayFunction()"
+				onpause="onPauseFunction()">
+			</audio>
+		</figure>
+	</section>
+
+	<section>
+		<article>
+			<h2>Информация обо всем</h2>
+		</article>
+		<aside>
+			<p>
+			 	Lorem ipsum — dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+			</p>
+		</aside>
+		<figure>
+			<audio 
+				src="https://ia800202.us.archive.org/4/items/LinkinPark_152/LinkinPark-WhatIveDonemus.ge.mp3"
+				autoplay
+				preload 
+				controls
+				loop 
+				onplay="onPlayFunction()"
+				onpause="onPauseFunction()"
+				>
+			</audio>
+		</figure>
+	</section>
+
+	<section>
+		<article>
+			<h2>Информация обо всем</h2>
+		</article>
+		<aside>
+			<p>
+			 	Lorem ipsum — dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+			</p>
+		</aside>
+		<figure>
+			<video
+				src="https://ia601609.us.archive.org/24/items/youtube-sesOnXMcaBk/Linkin_Park_-_Faint-sesOnXMcaBk.ogv"
+				poster="https://ia801609.us.archive.org/24/items/youtube-sesOnXMcaBk/Linkin_Park_-_Faint-sesOnXMcaBk.jpg"
+				width="400"
+				height="300"
+				controls
+				onplay="onPlayFunction()"
+				onpause="onPauseFunction()">
+			</video> 
+		</figure>
+	</section>
+	
+	<section>
+		<article>
+			<h2>Информация обо всем</h2>
+		</article>
+		<aside>
+			<p>
+			 	Lorem ipsum — dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+			</p>
+		</aside>
+		<figure>
+			<video
+				src="https://ia601609.us.archive.org/24/items/youtube-sesOnXMcaBk/Linkin_Park_-_Faint-sesOnXMcaBk.ogv"
+				poster="https://ia801609.us.archive.org/24/items/youtube-sesOnXMcaBk/Linkin_Park_-_Faint-sesOnXMcaBk.jpg"
+				width="400"
+				height="300"
+				controls
+				onplay="onPlayFunction()"
+				onpause="onPauseFunction()">
+			</video> 
+		</figure>
+	</section>
+<!------------ Footer ------------>
+	<footer>
+		<p>
+			Copyright 2017
+		</p>
+	</footer>
+
+	<script src="../assets/scripts/script.js"></script>
+</body>
+</html>

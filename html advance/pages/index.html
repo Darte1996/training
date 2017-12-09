@@ -11,18 +11,19 @@
 <!------------ Header ------------>
 	<header class="header">
 		<h1>Сайт начинающего frontend</h1>
-		<form class="form" action="index.html" method="get">
+		<form class="form" action="../pages/index.html" method="get">
 			<input type="email" 
 				   name="usermail" 
 				   placeholder="E-mail" 
-				   autofocus required>
+				   autofocus 
+				   required>
 			<input type="password" 
 				   name="pwd" 
 				   placeholder="Password" 
 				   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
 				   required
 				   title="Введите только буквы и цифры длина пароль должна быть не менее 8 символов">
-			<button type="button">Войти</button>
+			<input type="submit">
 		</form>
 	</header>
 <!------------ Content ------------>

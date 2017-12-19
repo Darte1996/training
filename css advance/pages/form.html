@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/stylesheets/form.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section">
+        <div class="formz">
+            <img src="../assets/image/close.png" alt="закрыть">
+                <form class="form" action="index.html" method="post">
+              <input
+                type="email"
+	            name="usermail"
+				placeholder="E-mail"
+                autofocus
+				required
+              >
+			  <input
+                type="password"
+			    name="pwd"
+				placeholder="Password"
+				pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+				required
+		        title="Введите только буквы и цифры длина пароль должна быть не менее 8 символов"
+               >
+            <button type="submit" class="register">
+                Register
+            </button>
+        </form>
+
+            <a href=""><p>Sign in</p></a>
+        </div>
+    </section>
+</body>
+</html>

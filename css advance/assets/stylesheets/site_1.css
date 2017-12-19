@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 body{
-=======
-*{
->>>>>>> da79a5a5296180570eaee37401bdeed6fdc429d3
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -15,11 +11,7 @@ body{
 }
 .logo{
     float: left;
-<<<<<<< HEAD
     margin: 12px 0 12px 10px;
-=======
-    margin: 10px;
->>>>>>> da79a5a5296180570eaee37401bdeed6fdc429d3
 }
 .logo p{
     border: 1px solid black;
@@ -49,21 +41,13 @@ input[type="submit"]{
 .sale{
     float: left;
     margin-top: 100px;
-<<<<<<< HEAD
     margin-left: 100px;
-=======
-    margin-left: 200px;
->>>>>>> da79a5a5296180570eaee37401bdeed6fdc429d3
 }
 .product{
     height: 100px;
     display: inline-block;
     padding-top: 10px;
-<<<<<<< HEAD
     padding-left: 100px;
-=======
-    padding-left: 200px;
->>>>>>> da79a5a5296180570eaee37401bdeed6fdc429d3
 }
 .link-wrap{
     box-sizing: border-box;

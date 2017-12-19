@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
 body{
-=======
-*{
->>>>>>> da79a5a5296180570eaee37401bdeed6fdc429d3
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -15,11 +12,7 @@ body{
     height: 200px;
     width: 250px;
     margin: auto;
-<<<<<<< HEAD
     margin-top: 250px;
-=======
-    margin-top: 350px;
->>>>>>> da79a5a5296180570eaee37401bdeed6fdc429d3
     border: 1px solid black;
 }
 .formz img{
@@ -34,31 +27,17 @@ body{
     border: 1px solid black;
 }
 .register{
-<<<<<<< HEAD
     margin-top: 10px;
     border-radius: 8px;
     border: 1px solid black;
     padding: 0 42px 0 42px;
-=======
-    margin-left: 50px;
-    margin-top: 10px;
-    border-radius: 8px;
-    border: 1px solid black;
-}
-.register p {
-    padding: 0 55px 0 55px;
->>>>>>> da79a5a5296180570eaee37401bdeed6fdc429d3
 }
 .formz>a{
     margin-top: 100px;
 }
 .formz a p{
     margin-top: 15px;
-<<<<<<< HEAD
     margin-left: 140px;
     font-size: 9pt;
-=======
-    margin-left: 160px;
-    font-size: 10pt;
->>>>>>> da79a5a5296180570eaee37401bdeed6fdc429d3
+
 }

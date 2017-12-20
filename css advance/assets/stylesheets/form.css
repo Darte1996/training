@@ -8,15 +8,24 @@ body{
     width: auto;
     height: auto;
 }
-.formz{
+.form-auth{
     height: 200px;
     width: 250px;
     margin: auto;
     margin-top: 250px;
     border: 1px solid black;
 }
-.formz img{
+.form-auth img{
     float: right;
+}
+.form-auth>a{
+    margin-top: 100px;
+}
+.form-auth a p{
+    margin-top: 15px;
+    margin-left: 140px;
+    font-size: 9pt;
+
 }
 .form{
     margin-top: 34px;
@@ -32,12 +41,4 @@ body{
     border: 1px solid black;
     padding: 0 42px 0 42px;
 }
-.formz>a{
-    margin-top: 100px;
-}
-.formz a p{
-    margin-top: 15px;
-    margin-left: 140px;
-    font-size: 9pt;
 
-}

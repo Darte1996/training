@@ -28,7 +28,6 @@ input[type="search"]{
     min-width: 780px;
     height: 600px;
     border: 1px solid black;
-    display: inline-block;
 }
 .nav{
     float: left;
@@ -49,22 +48,13 @@ input[type="search"]{
     margin-right: 15px;
 }
 .product{
-    height: 70px;
-    display: inline-block;
-    padding-top: 10px;
-    padding-left: 40px;
+    margin-left: 40%;
 }
 .link-wrap{
-    box-sizing: border-box;
+    float: right;
+    margin-top: 30px;
+    margin-left: 250px;
 }
 .caption{
-    margin-left: 20px;
-}
-.footer{
-    height: 50px;
-    min-width: 780px;
-}
-.footer p{
-    text-align: center;
-    font-size: 12pt;
+    margin-left: 250px;
 }

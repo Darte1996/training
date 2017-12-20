@@ -4,14 +4,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .header{
-    display: block;
     height: 50px;
     min-width: 780px;
-    color: black;
 }
 .logo{
     float: left;
-    margin: 12px 0 12px 10px;
+    margin: 5px;
 }
 .logo p{
     border: 1px solid black;
@@ -20,23 +18,17 @@ body{
 }
 .search{
     float: right;
-    margin: 15px 100px 15px 0px;
-    min-height: 20px;
+    margin: 25px 100px 20px 0px;
+    min-height: 30px;
 }
 input[type="search"]{
     border: 1px solid black;
-}
-input[type="submit"]{
-    width: 10px;
-    height: 10px;
-    border: none;
-    background: url(../image/gtk-search.png) no repeat;
 }
 .section{
     min-width: 780px;
     height: 600px;
     border: 1px solid black;
-    display: block;
+    display: inline-block;
 }
 .sale{
     float: left;

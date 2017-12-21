@@ -49,10 +49,9 @@ input[type="search"]{
     margin-right: 15px;
 }
 .product{
-    height: 70px;
     display: inline-block;
     padding-top: 10px;
-    padding-left: 40px;
+    margin-left: 40px;
 }
 .link-wrap{
     box-sizing: border-box;

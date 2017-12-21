@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    height: 50px;
+    min-width: 780px;
+}
+.logo{
+    float: left;
+    margin: 5px;
+    position: relative;
+     -webkit-animation: mymove 3s infinite;
+       -moz-animation: mymove 3s infinite;
+         -o-animation: mymove 3s infinite;
+            animation: mymove 3s infinite;
+}
+@keyframes mymove{
+     0% {color: black; left: 0; }
+    25% {color: green; left: 100px;}
+    75% {color: red; left: 240px;}
+    100% {color: blue; left: 300px;}
+}
+.logo p{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+.search{
+    float: right;
+    margin: 25px 100px 20px 0px;
+    min-height: 30px;
+}
+input[type="search"]{
+    border: 1px solid black;
+}
+.section{
+    min-width: 780px;
+    height: 600px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.sale{
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.product{
+    display: inline-block;
+    padding-top: 10px;
+    margin-left: 100px;
+}
+.product:hover {
+    box-shadow: inset 0 0 0 23px #1B9CFE;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;;
+}
+.link-wrap{
+    box-sizing: border-box;
+}
+.caption{
+    margin-left: 20px;
+}
+.footer{
+    height: 50px;
+    min-width: 780px;
+}
+.footer p{
+    text-align: center;
+    font-size: 12pt;
+}

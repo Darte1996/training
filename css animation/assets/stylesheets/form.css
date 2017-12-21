@@ -1,0 +1,44 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.section{
+    width: auto;
+    height: auto;
+}
+.form-auth{
+    height: 200px;
+    width: 250px;
+    margin: auto;
+    margin-top: 250px;
+    border: 1px solid black;
+}
+.form-auth img{
+    float: right;
+}
+.form-auth>a{
+    margin-top: 100px;
+}
+.form-auth a p{
+    margin-top: 15px;
+    margin-left: 140px;
+    font-size: 9pt;
+
+}
+.form{
+    margin-top: 34px;
+    margin-left: 50px;
+}
+.form>input{
+    margin-top: 5px;
+    border: 1px solid black;
+}
+.register{
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 0 42px 0 42px;
+}
+

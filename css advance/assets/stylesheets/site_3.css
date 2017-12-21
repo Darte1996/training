@@ -26,14 +26,15 @@ input[type="search"]{
 }   
 .section{
     min-width: 780px;
-    height: 600px;
+    height: 700px;
     border: 1px solid black;
+    margin-top: 30px;
 }
 .nav{
     float: left;
     width: 200px;
     border: 1px solid black;
-    height: 600px;
+    height: 700px;
 }
 .nav p{
     margin-left: 40px;
@@ -48,13 +49,42 @@ input[type="search"]{
     margin-right: 15px;
 }
 .product{
-    margin-left: 40%;
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-right: 45%;
 }
-.link-wrap{
-    float: right;
-    margin-top: 30px;
-    margin-left: 250px;
+.product>a{
+    float: left;
+    height: 200px;
 }
-.caption{
-    margin-left: 250px;
+.proguct-text{
+    font-size: 15px;
+    float: left;
+}
+.product-text h4{
+    margin-top: 10px;
+}
+.product-text h5{
+    color: red;
+    margin: 0;
+}
+#cash{
+    margin-left: 20px;
+    font-size: 20px;
+    border: 2px solid yellow;
+    cursor: pointer;
+    outline: none;
+    -webkit-border-radius: 10px;
+             border-radius: 10px; 
+}
+.footer{
+    height: 50px;
+    min-width: 780px;
+}
+.footer p{
+    text-align: center;
+    font-size: 12pt;
 }
